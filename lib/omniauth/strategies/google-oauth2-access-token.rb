@@ -13,8 +13,8 @@ module OmniAuth
       option :authorize_options, [:access_type, :hd, :login_hint, :prompt, :scope, :state, :redirect_uri]
       option :client_options, {
         :site          => 'https://accounts.google.com',
-        :authorize_url => '/o/oauth2/v2/auth',
-        :token_url     => '/o/oauth2/v2/token',
+        :authorize_url => '/o/oauth2/auth',
+        :token_url     => '/o/oauth2/token',
         :ssl => { :version => "SSLv3" }
       }
 
